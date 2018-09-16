@@ -1,0 +1,21 @@
+body{
+background: wheat;  
+}
+#frm{
+    padding: 20px;
+    border: 2px solid;
+  }
+  
+  #cart{
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid;
+    background: lightgreen;
+  }
+  #price{
+    margin: 10px;
+  }
+  
+  th, td, tr{
+    border: 1px solid;
+  }

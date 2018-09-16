@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping cart</title>
+    <link rel="icon" href="cart.png" type="icon/png">
+    <script src="index.js"></script>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id='frm'>
+       <table>
+           <tr>
+           <td> 
+        <label>Product Name :</label>
+        <input id='pname' type='text'><br>
+        </td>
+    
+    <td>    <label>Quantity     : </label>
+        <input id='pqty' type='number'><br>
+    </td>
+    <td>   
+    <label>Unit Price   :</label>
+    <input id='price' type='number'><br>    
+</td>
+    </tr>
+    </table>
+    <button onclick='addItem()' style="margin: 12px; width: 100px; height: 40px; background :blue; color: white ; font-size: 15px; border-radius: 12px; box-shadow:  "  >Add item</button>   
+    </div>
+        
+        <div id='cart'></div>
+    
+    
+</body>
+</html>
